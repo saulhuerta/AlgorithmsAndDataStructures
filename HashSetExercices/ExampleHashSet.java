@@ -1,3 +1,5 @@
+package HashSetExercices;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -76,7 +78,7 @@ class ExampleHashSet {
 
     // ==============================================================
 
-    // ================ Exercice 1 - Anagram Matcher ================
+    // ================ Exercice 2 - Anagram Matcher ================
     static void example2() {
         String[] ids1 = { "X123", "A456", "X123", "B789", "A456", "C111" };
         String[] ids2 = { "Z999", "Y888", "Z999", "Y888" };
@@ -100,5 +102,5 @@ class ExampleHashSet {
         // Return an empty string if no duplicate ids are found
         return "";
     }
-    // ==============================================================
+
 }
