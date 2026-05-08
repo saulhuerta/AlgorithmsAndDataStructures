@@ -41,8 +41,12 @@ public class FindAnagrams {
 
         for (String word : array2) {
             if (sortedWordsInArray1.contains(sortCharactersE3(word))) {
-                lengthSum += word.length();
+                anagramsMatched.add(word);
             }
+        }
+
+        for (String word : anagramsMatched) {
+            lengthSum += word.length();
         }
 
         return lengthSum;
